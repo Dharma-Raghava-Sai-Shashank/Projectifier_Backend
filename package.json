@@ -1,7 +1,7 @@
 {
   "name": "projectified-backend",
   "version": "1.0.0",
-  "description": "NodeJS backend for Projectified by AM-KA",
+  "description": "NodeJS backend for Projectified by DRSS",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -15,7 +15,7 @@
     "node",
     "js"
   ],
-  "author": "Akash Mahapatra",
+  "author": "Sai Shashank",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/AM-KA/Projectified-Backend/issues"
@@ -32,6 +32,6 @@
   },
   "devDependencies": {
     "dotenv": "^16.3.1",
-    "nodemon": "^2.0.4"
+    "nodemon": "^2.0.22"
   }
 }

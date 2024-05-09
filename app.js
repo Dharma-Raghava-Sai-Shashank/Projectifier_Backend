@@ -21,7 +21,7 @@ mongoose.connect(
         useNewUrlParser:true,
         useUnifiedTopology:true
     }
-);
+).then(()=>console.log("Connected to Database Successfully"));
 
 mongoose.Promise = global.Promise;
 

@@ -198,18 +198,18 @@ router.post('/reset/generateOtp', (req, res, next)=>{
         }
         var digits = '0123456789'; 
         let OTP = ''; 
-        for (let i = 0; i < 6; i++ ) { 
+        for (let i = 0; i < 6; i++ ) {
             OTP += digits[Math.floor(Math.random() * 10)]; 
         }
         let transporter = nodemailer.createTransport({
             service:'gmail',
             auth:{
-                user:'am.ka.apps@gmail.com',
+                user:'dharmaraghavasaishashank@gmail.com',
                 pass:process.env.MAIL_PW
             }
         })
         var message = {
-            from:'am.ka.apps@gmail.com',
+            from:'dharmaraghavasaishashank@gmail.com',
             to:emailId,
             subject:"Projectified: OTP for Password Reset",
             text:"OTP for your Password Reset Request is "+OTP+".",
