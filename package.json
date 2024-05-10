@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/AM-KA/Projectified-Backend.git"
+    "url": "git+https://github.com/Dharma-Raghava-Sai-Shashank/Projectifier_Backend.git"
   },
   "keywords": [
     "node",
@@ -29,10 +29,10 @@
     "mongoose": "^5.9.25",
     "morgan": "^1.10.0",
     "nodemailer": "^6.4.17",
-    "dotenv": "^16.3.1"
+    "dotenv": "^16.4.5"
   },
   "devDependencies": {
-    "dotenv": "^16.3.1",
+    "dotenv": "^16.4.5",
     "nodemon": "^2.0.22"
   }
 }
