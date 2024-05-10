@@ -3,12 +3,12 @@ const app = express();
 const morgan = require('morgan');
 const bodyParser = require('body-parser');
 const mongoose = require('mongoose');
-require('dotenv').config({path: '.env'})
+// require('dotenv').config();
 
 const userRoutes = require('./api/routes/user');
 const adminRoutes = require('./api/routes/admin');
 const offerRoutes = require('./api/routes/offer');
-const applicationRoutes=require('./api/routes/application')
+const applicationRoutes=require('./api/routes/application');
 const faqRoutes = require('./api/routes/faq');
 
 // if(process.env.NODE_ENV != 'production'){
