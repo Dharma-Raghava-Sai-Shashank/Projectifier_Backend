@@ -11,7 +11,7 @@ const FAQ = require('../models/faq');
 */
 router.get('/', (request, response, next) => {
     FAQ
-    .find({answered: true})
+    .find()
     .then(result => {
         response.status(200).json({
             code: 200,
