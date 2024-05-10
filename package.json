@@ -18,9 +18,9 @@
   "author": "Sai Shashank",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/AM-KA/Projectified-Backend/issues"
+    "url": "https://github.com/Dharma-Raghava-Sai-Shashank/Projectifier_Backend/issues"
   },
-  "homepage": "https://github.com/AM-KA/Projectified-Backend#readme",
+  "homepage": "https://github.com/Dharma-Raghava-Sai-Shashank/Projectifier_Backend#readme",
   "dependencies": {
     "bcrypt": "^5.0.0",
     "body-parser": "^1.19.0",
